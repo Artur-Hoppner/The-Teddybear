@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import FunctionComponent from './FunctionComponent';
+import ClassComponent from './ClassComponent';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <FunctionComponent />
+    <ClassComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
